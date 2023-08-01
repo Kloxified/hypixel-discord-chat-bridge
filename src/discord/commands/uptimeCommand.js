@@ -11,8 +11,8 @@ module.exports = {
       .setTitle("🕐 Uptime!")
       .setDescription(`Online since <t:${toFixed(client.uptime / 1000, 0)}:R>`)
       .setFooter({
-        text: `by @duckysolucky | /help [command] for more information`,
-        iconURL: "https://imgur.com/tgwQJTX.png",
+        text: `edited by @Kloxified | /help [command] for more information`,
+        iconURL: "https://i.imgur.com/gPTqaEV.png",
       });
 
     interaction.followUp({ embeds: [uptimeEmbed] });

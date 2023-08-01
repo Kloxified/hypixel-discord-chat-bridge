@@ -10,8 +10,8 @@ module.exports = {
       .setTitle("🏓 Pong!")
       .setDescription(`Latency: ${client.ws.ping}ms`)
       .setFooter({
-        text: `by @duckysolucky | /help [command] for more information`,
-        iconURL: "https://imgur.com/tgwQJTX.png",
+        text: `edited by @Kloxified | /help [command] for more information`,
+        iconURL: "https://i.imgur.com/gPTqaEV.png",
       });
 
     interaction.followUp({ embeds: [embed] });

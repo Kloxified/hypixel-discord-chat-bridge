@@ -44,7 +44,7 @@ const words = [
   "refraction",
   "rat",
   "duck",
-  "duckysolucky",
+  "Kloxified",
   "ducky",
   "skyhelper",
   "skycrypt",

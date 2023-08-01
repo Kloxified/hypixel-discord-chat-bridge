@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DuckySoLucky/hypixel-discord-chat-bridge.git"
+    "url": "git+https://github.com/Kloxified/hypixel-discord-chat-bridge.git"
   },
   "keywords": [
     "hypixel",
@@ -23,12 +23,12 @@
     "chat",
     "bridge"
   ],
-  "author": "DuckySoLucky",
+  "author": "Kloxified",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DuckySoLucky/hypixel-discord-chat-bridge/issues"
+    "url": "https://github.com/Kloxified/hypixel-discord-chat-bridge/issues"
   },
-  "homepage": "https://github.com/DuckySoLucky/hypixel-discord-chat-bridge#readme",
+  "homepage": "https://github.com/Kloxified/hypixel-discord-chat-bridge#readme",
   "dependencies": {
     "@discordjs/rest": "^1.5.0",
     "axios": "0.27.2",

@@ -71,8 +71,8 @@ module.exports = {
           }
         )
         .setFooter({
-          text: "by @duckysolucky | /help [command] for more information",
-          iconURL: "https://imgur.com/tgwQJTX.png",
+          text: "edited by @Kloxified | /help [command] for more information",
+          iconURL: "https://i.imgur.com/gPTqaEV.png",
         });
 
       await interaction.followUp({ embeds: [helpMenu] });
@@ -91,8 +91,8 @@ module.exports = {
           .setTitle("Error")
           .setDescription(`Command \`${commandName}\` was not found`)
           .setFooter({
-            text: "by @duckysolucky | /help [command] for more information",
-            iconURL: "https://imgur.com/tgwQJTX.png",
+            text: "edited by @Kloxified | /help [command] for more information",
+            iconURL: "https://i.imgur.com/gPTqaEV.png",
           });
 
         return await interaction.followUp({ embeds: [errorEmbed] });
@@ -116,8 +116,8 @@ module.exports = {
         .setTitle(`**${type === "discord" ? "/" : config.minecraft.prefix}${command.name}**`)
         .setDescription(description + "\n")
         .setFooter({
-          text: "by @duckysolucky | () = required, [] = optional",
-          iconURL: "https://imgur.com/tgwQJTX.png",
+          text: "edited by @Kloxified | () = required, [] = optional",
+          iconURL: "https://i.imgur.com/gPTqaEV.png",
         });
 
       await interaction.followUp({ embeds: [embed] });

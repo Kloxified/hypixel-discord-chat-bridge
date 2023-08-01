@@ -69,8 +69,8 @@ module.exports = {
         .setTitle("Online Members")
         .setDescription(description)
         .setFooter({
-          text: "by @duckysolucky | /help [command] for more information",
-          iconURL: "https://imgur.com/tgwQJTX.png",
+          text: "edited by @Kloxified | /help [command] for more information",
+          iconURL: "https://i.imgur.com/gPTqaEV.png",
         });
 
       return await interaction.followUp({ embeds: [embed] });
@@ -81,8 +81,8 @@ module.exports = {
         .setTitle("Error")
         .setDescription(`\`\`\`${error}\`\`\``)
         .setFooter({
-          text: "by @duckysolucky | /help [command] for more information",
-          iconURL: "https://imgur.com/tgwQJTX.png",
+          text: "edited by @Kloxified | /help [command] for more information",
+          iconURL: "https://i.imgur.com/gPTqaEV.png",
         });
 
       return await interaction.followUp({ embeds: [errorEmbed] });
